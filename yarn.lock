@@ -15255,6 +15255,11 @@ sockjs@^0.3.21:
     uuid "^3.4.0"
     websocket-driver "^0.7.4"
 
+solid-js@^3.20.0:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.4.4.tgz#cf14c41f118d11ec2257e60a4d23d03575c7095d"
+  integrity sha512-nf/cbRzMuhb5UjbRDNfSJPqHKzUxNb9YgCQwijPUbdA3koQ/hWrz/lj0ter3lvThgxinvGPtXofDGy9bsKrXqA==
+
 sort-keys-length@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/sort-keys-length/-/sort-keys-length-1.0.1.tgz#9cb6f4f4e9e48155a6aa0671edd336ff1479a188"
