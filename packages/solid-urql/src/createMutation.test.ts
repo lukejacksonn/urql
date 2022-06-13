@@ -7,12 +7,12 @@ describe('createMutation', () => {
   const context = {};
   const query =
     'mutation ($input: Example!) { doExample(input: $input) { id } }';
-  const [store] = createMutation({
+  const [store] = createMutation(() => ({
     client,
     query,
     variables,
     context,
-  });
+  }));
 
   it('fills the store with correct values', () => {
     expect(store.operation.kind).toBe('mutation');

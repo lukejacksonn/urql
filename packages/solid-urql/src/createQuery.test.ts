@@ -6,7 +6,7 @@ describe('createQuery', () => {
   const variables = {};
   const context = {};
   const query = '{ test }';
-  const [store] = createQuery({ client, query, variables, context });
+  const [store] = createQuery(() => ({ client, query, variables, context }));
 
   it('fills the store with correct values', () => {
     expect(store.operation.kind).toBe('query');
